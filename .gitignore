@@ -1,0 +1,21 @@
+# Local data and log files
+*.json
+*.csv
+logs/
+temp_log.json
+
+# AWS/Local Secret Files
+.aws/
+credentials*
+*.env
+
+# Python files
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# IDE files
+.vscode/
+.idea/
